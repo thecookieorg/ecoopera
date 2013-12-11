@@ -1,0 +1,117 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+/* title background */
+.title_bkgd{
+	margin-top: -10px; 
+	background-color: white;
+	border-top: 2px solid #9a9b99;
+	border-bottom: 2px solid #8cc640;
+	/*background-image: linear-gradient(left , #FFFFFF 50%, #CECECE 70%);
+	background-image: -o-linear-gradient(left , #FFFFFF 50%, #CECECE 70%);
+	background-image: -moz-linear-gradient(left , #FFFFFF 50%, #CECECE 70%);
+	background-image: -webkit-linear-gradient(left , #FFFFFF 50%, #CECECE 70%);
+	background-image: -ms-linear-gradient(left , #FFFFFF 50%, #CECECE 70%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		right top,
+		color-stop(0.5, #FFFFFF),
+		color-stop(0.7, #CECECE)
+	);*/
+	/*background-image: linear-gradient(right , #D8E0EB 28%, #E3E9F0 64%, #F5F7F7 82%);
+	background-image: -o-linear-gradient(right , #D8E0EB 28%, #E3E9F0 64%, #F5F7F7 82%);
+	background-image: -moz-linear-gradient(right , #D8E0EB 28%, #E3E9F0 64%, #F5F7F7 82%);
+	background-image: -webkit-linear-gradient(right , #D8E0EB 28%, #E3E9F0 64%, #F5F7F7 82%);
+	background-image: -ms-linear-gradient(right , #D8E0EB 28%, #E3E9F0 64%, #F5F7F7 82%);
+
+	background-image: -webkit-gradient(
+		linear,
+		right top,
+		left top,
+		color-stop(0.28, #D8E0EB),
+		color-stop(0.64, #E3E9F0),
+		color-stop(0.82, #F5F7F7)
+	);*/
+}
+
+/* paragraph stylilng */
+p{
+	color:#474646;
+	font-family: "HelveticaNeue";
+}
+
+/* footer styling */
+footer{
+	margin-top: 20px;
+}
+
+/* float right id */
+#float-right{
+	float: right;
+	margin: 10px 0 0 0;
+}
+
+/* copyright class styling */
+.copyright{
+	text-align: center;
+}
+
+/* image behind main navigation */
+#nav-bkgd{
+	z-index: -2;
+	float: right;
+}
+
+
+/* testing purpose */
+#test{
+	border: 2px solid green;
+}
+
+/* margins */
+#margin-top{
+	margin-top: 20px;
+}
+#margin-top-second{
+	margin-top: 20px;
+}
+#margin-top-first-row{
+	margin-top: 70px;
+}
+.margin_main_container{
+	margin-top:40px;
+}
+
+/* sub menu id */
+#sub-menu{
+	/*border: 2px solid black;*/
+}
+
+/* h3 and h4 styling */
+h3{
+	font-family: "HelveticaNeue";
+	text-transform: uppercase;
+}
+h4{
+	font-family: "HelveticaNeue";
+}
+
+/* green line is next to the title of the page, on the right side */
+.green_line{
+	float: right; 
+	margin-top: 6px;
+}
+
+/* main picture under the title */
+.main_picture{
+	margin-top: -11px; 
+	margin-bottom: 20px;
+}
