@@ -12,10 +12,17 @@
 			<div class="main_content">
 			<!-- Example row of columns -->
             <div class="row animated fadeInLeft">
-                <?php include('includes/sidebar_nav_contact.php'); ?>
-				<div class="span15 margin_main_container" style="margin-left: -95px;">
-						<a href="mailto:info@cesgroup.ca"><img src="img/contact/contact-canada.png"/></a><br>
-						<a href="mailto:info@cesgroup.ae"><img src="img/contact/contact-us-ae.png"/></a>
+				<div class="span12 margin_main_container">
+					<img src="img/contact/big-map-contact-page.png">
+					<img src="img/contact/click-the-city.png">
+				</div>
+				<div class="span28">
+					<img src="img/contact/middle-east-canada.png">
+					<a href="contact-vancouver.php"><img src="img/contact/vancouver-link.png"></a>
+					<a href="contact-calgary.php"><img src="img/contact/calgary-link.png"></a>
+					<a href="contact-toronto.php"><img src="img/contact/toronto-link.png"></a>
+					<img src="img/contact/empty-space2.png">
+					<a href="contact-dubai.php"><img src="img/contact/dubai-link.png"></a>
 				</div>
             </div>	
 			
