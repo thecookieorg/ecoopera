@@ -63,8 +63,6 @@
 
            <?php include('includes/footer.php'); ?>
 
-</div> <!-- /container -->
-
-<?php include('includes/analytics.php'); ?>
+		</div> <!-- /container -->
     </body>
 </html>
