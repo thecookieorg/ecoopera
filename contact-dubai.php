@@ -21,7 +21,7 @@
 				</div>
 				<div class="span3 margin_main_container">
 					<img src="img/contact/contact-us-title.png">
-					<h3 style="color: #8cc63e;">DUBAI</h3>
+					<h3 class="contact_page">DUBAI</h3>
 					<p>PO Box 7687, Dubai, UAE</p>
 					<p>Tel: +917.43.467.799</p>
 					<p>Fax: +917.43.467.755</p>

@@ -21,7 +21,7 @@
 				</div>
 				<div class="span3 margin_main_container">
 					<img src="img/contact/contact-us-title.png">
-					<h3 style="color: #8cc63e;">TORONTO</h3>
+					<h3 class="contact_page">TORONTO</h3>
 					<p>1515 - 5001 Yonge Street</p>
 					<p>Toronto, ON, Canada, M2N 6P6</p>
 					<p>Tel: 416.226.4224</p>

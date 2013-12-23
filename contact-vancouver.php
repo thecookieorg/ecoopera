@@ -21,7 +21,7 @@
 				</div>
 				<div class="span3 margin_main_container">
 					<img src="img/contact/contact-us-title.png">
-					<h3 style="color: #8cc63e;">VANCOUVER</h3>
+					<h3 class="contact_page">VANCOUVER</h3>
 					<p>402 - 4601 Canada Way</p>
 					<p>Burnaby, BC, Canada, V5G 4X7</p>
 					<p>Tel: 604.221.8715</p>

@@ -77,6 +77,10 @@ h4{
 	font-family: 'Raleway', sans-serif;
 }
 
+h3.contact_page{
+	color: #8cc63e;
+}
+
 /* green line is next to the title of the page, on the right side */
 .green_line{
 	float: right; 
