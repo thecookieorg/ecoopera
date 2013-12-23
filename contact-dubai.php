@@ -37,8 +37,6 @@
 			
             <?php include('includes/footer-contact.php'); ?>
 
-</div> <!-- /container -->
-
-<?php include('includes/analytics.php'); ?>
+		</div> <!-- /container -->
     </body>
 </html>

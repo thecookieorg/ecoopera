@@ -14,147 +14,54 @@
       	
 					<div class="row animated fadeInLeft">
 					<div class="span4 margin_main_container">
-				      <form action="" novalidate autocomplete="off" class="idealforms">
+				    <form action="mail.php" method="POST">
+						<p>Name<br>
+							<input type="text" name="name">
+						</p>
+						<p>Company<br>
+							<input type="text" name="company">
+						</p>
+						<p>Address<br>
+							<input type="text" name="address">
+						</p>
+						<p>Email<br>
+							<input type="text" name="email">
+						</p>
+						<p>Phone<br>
+							<input type="text" name="phone">
+						</p>
 
-							<div class="idealsteps-wrap">
+						<p>Request Phone Call:<br>
+							Yes:<input type="checkbox" value="Yes" name="call"><br>
+							No:<input type="checkbox" value="No" name="call">
+						</p>
 
-							  <section class="idealsteps-step">
-								
-								<div class="field">
-								  <label class="main">Name:</label>
-								  <input name="name" type="text" data-idealforms-ajax="ajax.php">
-								  <span class="error"></span>
-								</div>
-								
-								<div class="field">
-								  <label class="main">Company:</label>
-								  <input name="company" type="text" data-idealforms-ajax="ajax.php">
-								  <span class="error"></span>
-								</div>
-								
-								<div class="field">
-								  <label class="main">Address:</label>
-								  <input name="address" type="text" data-idealforms-ajax="ajax.php">
-								  <span class="error"></span>
-								</div>
+						<p>Website<br>
+							<input type="text" name="website">
+						</p>
 
-								<div class="field">
-								  <label class="main">E-Mail:</label>
-								  <input name="email" type="email">
-								  <span class="error"></span>
-								</div>
-
-								<!--<div class="field">
-								  <label class="main">What is the best day to call you?</label>
-								  <input name="date" type="text" placeholder="mm/dd/yyyy" class="datepicker">
-								  <span class="error"></span>
-								</div>-->
-
-								<div class="field">
-								  <label class="main">Website:</label>
-								  <input name="website" type="text">
-								  <span class="error"></span>
-								</div>
-
-								<div class="field">
-								  <label class="main">Phone:</label>
-								  <input name="phone" type="text" placeholder="000-000-0000">
-								  <span class="error"></span>
-								</div>
-
-								<!--<div class="field">
-								  <label class="main">Zip:</label>
-								  <input name="zip" type="text" placeholder="000 000">
-								  <span class="error"></span>
-								</div>-->
-
-								
-								<div class="field">
-								  <label class="main">Comments:</label>
-								  <textarea name="comments" cols="30" rows="10"></textarea>
-								  <span class="error"></span>
-								</div>
-
-								<div class="field buttons">
-								  <button type="submit" class="submit">Submit</button>
-								</div>
-							  </section>
-							</div>
-
-							<span id="invalid"></span>
-
-						  </form>
-						</div>
-										<div class="span26 margin_main_container">
-											<img src="img/products/sidebar-request-demo.png" alt="Sidebar Picture with eco opera product logos.">
-										</div>
+						<p>Message<br>
+							<textarea name="message" rows="6" cols="25"></textarea>
+						</p>
+						
+						<p>
+							<input type="submit" class="btn-submit" value="Send"> <input type="reset" class="btn-reset" value="Clear">
+						</p>
+					</form>
+						
+					</div>
+					
+					<div class="span26 margin_main_container">
+						<img src="img/products/sidebar-request-demo.png" alt="Sidebar Picture with eco opera product logos.">
+					</div>
+					
 					</div><!-- Box on Home Page - END BOX -->
 			
 
             <?php include('includes/footer.php'); ?>
 
-</div> <!-- /container -->
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
-  <script src="js/out/jquery.idealforms.js"></script>
-  <!--<script src="js/out/jquery.idealforms.min.js"></script>-->
-  <script>
-
-    $('form.idealforms').idealforms({
-
-      silentLoad: false,
-
-      rules: {
-		'name': 'required name',
-		'company': 'required company',
-		'address': 'required address',
-        'email': 'required email',
-        'date': 'required date',
-        'website': 'url',
-        'phone': 'required phone',
-        'zip': 'required zip',
-        'options': 'select:default',
-      },
-
-      errors: {
-        'username': {
-          ajaxError: 'Username not available'
-        }
-      },
-
-      onSubmit: function(invalid, e) {
-        e.preventDefault();
-        $('#invalid')
-          .show()
-          .toggleClass('valid', ! invalid)
-          .text(invalid ? (invalid +' invalid fields') : 'All good!');
-      },
-
-      steps: {
-        fadeSpeed: 300
-      }
-    });
-
-
-
-    $('form.idealforms').find('input, select, textarea').on('change keyup', function() {
-      $('#invalid').hide();
-    });
-
-    $('form.idealforms').idealforms('addRules', {
-      'comments': 'required minmax:50:200'
-    });
-
-    $('.prev').click(function(){
-      $('.prev').show();
-      $('form.idealforms').idealforms('prevStep');
-    });
-    $('.next').click(function(){
-      $('.next').show();
-      $('form.idealforms').idealforms('nextStep');
-    });
-
-  </script>
-<?php include('includes/analytics.php'); ?>
+	</div> <!-- /container -->
+	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
     </body>
 </html>
