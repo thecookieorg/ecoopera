@@ -13,7 +13,7 @@
 			They made me write it, against my will.
 		   ******************************************	
 		-->
-		
+		<?php include_once("analyticstracking.php") ?>		
        <?php include('includes/nav_home_page.php'); ?>
 
         <div class="container">
